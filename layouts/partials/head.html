@@ -1,0 +1,10 @@
+<head>
+	<title>Esed Alihodzic</title>
+	 <meta name="viewport" content="width=device-width">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	 <link href="{{ "css/style.css" | relURL }}" rel="stylesheet">
+
+	 {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+</head>

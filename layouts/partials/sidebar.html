@@ -1,0 +1,29 @@
+<nav class="main-nav">
+  <h3>{{ .Site.Title }}</h3>
+
+  <ul class="nav">
+    {{ range .Site.Menus.main }}
+    <li>
+      <a href="{{ .URL }}">
+        {{ .Pre }}
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <ul class="social">
+    {{ range .Site.Params.social }}
+
+    {{ if .enabled }}
+    <li>
+      <a href="{{ .url }}" {{ if ne .name "email" }} target="_blank" rel="noopener" {{ end }} >
+        {{- partial "svg/icons" .name -}}
+      </a>
+    </li>
+    {{ end }}
+    
+    {{ end }}
+  </ul>
+
+</nav>

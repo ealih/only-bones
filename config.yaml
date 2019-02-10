@@ -1,0 +1,33 @@
+menu:
+  main:
+  - identifier: blog
+    name: Blog
+    title: Blog
+    url: /posts/
+    weight: -110
+  - identifier: about
+    name: About
+    title: About
+    url: /about/
+    weight: -109
+
+params:
+  social:
+  - name: linkedin
+    url: ''
+    enabled: true
+  - name: email
+    url: 'mailto:'
+    enabled: true
+  - name: twitter
+    url: ''
+    enabled: false
+  - name: github
+    url: ''
+    enabled: false
+  - name: gitlab
+    url: ''
+    enabled: false
+  - name: rss
+    url: '/index.xml'
+    enabled: true

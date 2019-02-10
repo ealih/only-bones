@@ -1,0 +1,30 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Only Bones"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = ""
+homepage = "http://example.com/"
+tags = [
+	"blog",
+	"bare",
+	"bones",
+	"minimal",
+	"responsive",
+]
+
+features = [
+	"analytics",
+	"favicon",
+	"pagination",
+	"single-column",
+	"social-menu",
+	"syntax-highlighting",
+]
+
+min_version = "0.41"
+
+[author]
+  name = "Esed Alihodzić"
+  homepage = "https://esed.io"

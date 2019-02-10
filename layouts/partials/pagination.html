@@ -1,0 +1,18 @@
+<div class="page-nav">
+
+  {{ if .Paginator.HasPrev }}
+  <a class="pagination" href="{{ .Paginator.Prev.URL }}">
+    {{- partial "svg/icons" "chevron-left" -}} Newer
+  </a>
+  {{ else }}
+  <div></div>
+  {{ end }}
+  
+
+  {{ if .Paginator.HasNext }}
+  <a class="pagination" href="{{ .Paginator.Next.URL }}">
+    Older {{- partial "svg/icons" "chevron-right" -}}
+  </a>
+  {{ end }}
+
+</div> 
