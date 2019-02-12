@@ -1,3 +1,7 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -39,7 +43,7 @@ nav .social {
 }
 
 .wrapper {
-    font: 1em 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: minmax(300px, 750px);
@@ -49,7 +53,6 @@ nav .social {
 }
 
 article {
-    font: 1em 'Open Sans', sans-serif;
 	padding-bottom: 20px;
 }
 
@@ -113,7 +116,6 @@ article {
 
 	.wrapper {
 		display: grid;
-		max-width: 1280px;
 		grid-template-columns: minmax(200px, 200px) minmax(400px, 800px);
 		grid-template-areas: "nav content";
 	}
