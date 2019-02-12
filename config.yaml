@@ -3,7 +3,7 @@ menu:
   - identifier: blog
     name: Blog
     title: Blog
-    url: /posts/
+    url: /
     weight: -110
   - identifier: about
     name: About
