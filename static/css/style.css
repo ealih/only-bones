@@ -1,7 +1,3 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-
 nav ul {
     list-style: none;
     margin: 0;
@@ -43,7 +39,7 @@ nav .social {
 }
 
 .wrapper {
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: minmax(300px, 750px);
